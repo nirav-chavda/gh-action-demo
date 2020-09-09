@@ -1,7 +1,6 @@
 name: "Workflow Sample"
 
 on:
-  push:
   schedule:
     - '*/2 * * * *'
 
