@@ -2,7 +2,7 @@ name: "Workflow Sample"
 
 on:
   schedule:
-    - '*/2 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   bot:
